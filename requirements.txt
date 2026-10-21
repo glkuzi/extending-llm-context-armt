@@ -1,0 +1,10 @@
+transformers
+tensorboard
+rouge_score
+accelerate
+datasets
+nltk
+six
+trl
+peft
+scikit-learn

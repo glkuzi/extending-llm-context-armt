@@ -1,0 +1,11 @@
+#bash llama_it_1b_mt_no_ns_gen_50_0_8s_all_lin_64_128.sh;
+bash armt_sw_1b_mt_no_ns_gen_50_0_2s_all_lin_64_128.sh;
+bash armt_sw_1b_mt_no_ns_gen_50_0_4s_all_lin_64_128.sh;
+bash armt_sw_1b_mt_no_ns_gen_50_0_8s_all_lin_64_128.sh;
+bash llama_it_1b_mt_no_ns_gen_50_0_8s_full_ft.sh;
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_no_sw.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_no_sw.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_no_sw.sh;
+bash armt_sw_1b_mt_no_ns_gen_50_es_15_0_2s_all_lin_64_128.sh;
+bash armt_sw_1b_mt_no_ns_gen_50_es_15_0_4s_all_lin_64_128.sh;
+bash armt_sw_1b_mt_no_ns_gen_50_es_15_0_8s_all_lin_64_128.sh;

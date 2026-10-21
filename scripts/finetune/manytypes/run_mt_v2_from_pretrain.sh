@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_from_pretrain_fix.sh;
+# reset to val on 8k
+bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_long_val_lower_lr_from_pretrain_fix.sh;

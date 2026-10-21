@@ -1,0 +1,3 @@
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left.sh;

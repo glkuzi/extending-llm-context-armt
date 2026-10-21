@@ -1,0 +1,4 @@
+# main experiments on GR-100+ - curriculum learning on 2-4-8 segments, in base configuration (from scratch)
+bash gov_rep_100_plus_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params.sh;
+bash gov_rep_100_plus_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_lower_lr.sh;
+bash gov_rep_100_plus_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_lower_lr_from_lower_lr_4s.sh;

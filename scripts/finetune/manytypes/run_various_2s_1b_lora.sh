@@ -1,0 +1,67 @@
+#bash llama_it_8b_mt_no_ns_0_2s.sh;
+#bash armt_sw_8b_mt_no_ns_0_2s.sh;
+#bash llama_it_8b_mt_no_ns_0_4s.sh;
+#bash armt_sw_8b_mt_no_ns_0_4s.sh;
+#bash armt_sw_8b_mt_no_ns_0_4s_from_inst.sh;
+#bash armt_sw_8b_mt_no_ns_0_2s_from_inst.sh;
+# after run 8b 2s from 2s inst and CL on 4s
+# and after run CL 2s-4s-8s on 1b model vs 1b model 8s
+#bash armt_sw_8b_mt_no_ns_0_4s_from_2s_from_inst.sh;
+#bash llama_it_1b_mt_no_ns_0_4s.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s.sh;
+#bash armt_sw_1b_mt_no_ns_0_16s.sh;
+
+# fix K2 param
+#bash armt_sw_8b_mt_no_ns_0_4s_from_2s_from_inst.sh;
+#bash armt_sw_8b_mt_no_ns_0_4s_from_inst.sh;
+#bash armt_sw_8b_mt_no_ns_0_4s.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s.sh;
+#bash armt_sw_1b_mt_no_ns_0_16s.sh;
+# 1b, 512
+#bash llama_it_1b_mt_no_ns_0_8s.sh;
+#bash armt_sw_1b_mt_no_ns_512_0_2s.sh;
+#bash armt_sw_1b_mt_no_ns_512_0_4s.sh;
+#bash armt_sw_1b_mt_no_ns_512_0_8s.sh;
+#bash armt_sw_1b_mt_no_ns_512_0_16s.sh;
+# run 1b 1024 model with all-linear and full ft
+#bash armt_sw_1b_mt_no_ns_0_2s_all_lin.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_all_lin.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_all_lin.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s_full_ft.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_full_ft.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_full_ft.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_from_1k.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_from_1k.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_from_1k.sh;
+# run no sw,armt fix with 512 segment
+#bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_512.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_512.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_512.sh;
+#bash armt_sw_1b_mt_no_ns_0_16s_all_lin_64_128_left_assist_mask_es15_no_sw_512.sh;
+# run 8b 1024 model with all-linear
+# mt_v2 with sw on 4 gpus
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15.sh;
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15.sh;
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15.sh;
+## resume stopped runs
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw.sh;
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw.sh;
+## gemma in the best setting, 8k
+#bash armt_sw_1b_gemma3_mt_no_ns_0_8s_all_lin_64_128_no_sw_eager_assist_mask.sh;
+#bash mt_v2_armt_gemma_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_from2s.sh;
+#bash mt_v2_armt_gemma_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_from2s.sh;
+#bash mt_v2_armt_gemma_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_from4s.sh;
+#bash mt_v2_armt_gemma_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_from4s.sh;
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_14_15_assoc_from2s.sh;
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_14_15_assoc_from2s.sh;
+#bash mt_v2_armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_14_15_assoc_from2s.sh;
+#bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params.sh;
+#bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_lower_lr.sh;
+#bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_bigger_mem_long_train.sh;
+
+#bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_lower_lr_all_rev_cl_steps.sh;
+#bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_lower_lr_all_rev_cl_steps_new_data.sh;
+bash mt_v2_mask_fix_armt_gemma_sw_1b_mt_no_ns_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_lower_lr_all_rev_cl_steps_new_data_2k_4k.sh;

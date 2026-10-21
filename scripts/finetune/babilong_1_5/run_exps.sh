@@ -1,0 +1,2 @@
+#bash armt_1b_bl_base_64_128_cl_2_16_bs_new_gen_4_gpu_q15_v8_gpt2like_pad_fix_mask_assistant_1024.sh;
+bash armt_1b_bl_all_lin_64_128_cl_2_16_bs_new_gen_4_gpu_q15_v8_gpt2like_pad_fix_mask_assistant_1024.sh;

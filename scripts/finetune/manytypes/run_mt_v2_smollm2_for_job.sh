@@ -1,0 +1,18 @@
+#!/bin/bash
+export CUDA_VISIBLE_DEVICES="0"
+# test labeling for 3-5 additional models to increase data diversity
+set -e
+ls;
+#cd ../../
+eval "$(conda shell.bash hook)"
+conda activate /workspace-SR006.nfs1/gkuzmin/rmt_it/conda_rmt_it_venv
+cd /workspace-SR006.nfs1/gkuzmin/rmt_it/rmt_ift/scripts/finetune/manytypes/
+
+#bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params.sh;
+#bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params.sh;
+#bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_long_val_lower_lr.sh;
+
+bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_2s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_from_pretrain_fix.sh;
+bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_4s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_from_pretrain_fix.sh;
+bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_long_val_lower_lr_from_pretrain_fix.sh;
+bash mt_v2_mask_fix_armt_smollm2_360M_mt_no_ns_0_8s_all_lin_64_128_left_assist_mask_es15_no_sw_bl_params_long_val_lower_lr_from_pretrain_fix_no_cl.sh;

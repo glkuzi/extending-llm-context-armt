@@ -1,0 +1,9 @@
+# OOM
+#bash llama_it_1b_mt_no_ns_0_8s_all_lin_64_128.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_id4.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_id4.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_id4.sh;
+# run train from 2s inst
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_from_2s_inst.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_from_2s_inst.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_from_2s_inst.sh;

@@ -1,0 +1,17 @@
+#
+#bash armt_sw_1b_mt_no_ns_0_8s_128_all_lin_64_128_reverse_cl.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_256_all_lin_64_128_reverse_cl.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s_512_all_lin_64_128_reverse_cl.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_reverse_cl.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_reverse_cl.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_reverse_cl.sh;
+# run subsample 50 and armt w/o sw
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_subsample_50.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_subsample_50.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_subsample_50.sh;
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_no_sw.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_no_sw.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_no_sw.sh;
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_quest_end.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_quest_end.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_quest_end.sh;

@@ -1,0 +1,15 @@
+# OOM
+#bash llama_it_1b_mt_no_ns_0_8s_all_lin_64_128.sh;
+#bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_comp_256.sh;
+#bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_comp_256.sh;
+#bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_comp_256.sh;
+# run train from 4s inst
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_from_4s_inst.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_from_4s_inst.sh;
+# run train from 2s inst, but from 4s dataset
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_from_2s_inst_st4s.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_from_2s_inst_st4s.sh;
+# train from 4s inst, but start from 2s
+bash armt_sw_1b_mt_no_ns_0_2s_all_lin_64_128_from_4s_inst_st2s.sh;
+bash armt_sw_1b_mt_no_ns_0_4s_all_lin_64_128_from_4s_inst_st2s.sh;
+bash armt_sw_1b_mt_no_ns_0_8s_all_lin_64_128_from_4s_inst_st2s.sh;
