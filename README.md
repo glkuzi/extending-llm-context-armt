@@ -56,16 +56,32 @@ The scripts for labeling additional data for GR-100+ dataset are located in [pre
 
 
 ## Citation
-Version from arxiv:
 
 ```
-@misc{kuzmin2026extendingllmcontextassociative,
-      title={Extending LLM Context via Associative Recurrent Memory}, 
-      author={Gleb Kuzmin and Ivan Rodkin and Aydar Bulatov and Yuri Kuratov and Lyudmila Rvanova and Mikhail Katkov and Ilia Sochenkov and Misha Tsodyks and Timothy Baldwin and Mikhail Burtsev and Artem Shelmanov},
-      year={2026},
-      eprint={2607.11614},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2607.11614}, 
+@inproceedings{kuzmin-etal-2026-extending,
+    title = "Extending {LLM} Context via Associative Recurrent Memory",
+    author = "Kuzmin, Gleb  and
+      Rodkin, Ivan  and
+      Bulatov, Aydar  and
+      Kuratov, Yuri  and
+      Rvanova, Lyudmila  and
+      Katkov, Mikhail  and
+      Sochenkov, Ilia  and
+      Tsodyks, Misha  and
+      Baldwin, Timothy  and
+      Burtsev, Mikhail  and
+      Shelmanov, Artem",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1264/",
+    pages = "26710--26742",
+    ISBN = "979-8-89176-462-0"
 }
 ```
